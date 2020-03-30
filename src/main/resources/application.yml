@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: "local"
+  main:
+    allow-bean-definition-overriding: true
+  data:
+    mongodb:
+      auto-index-creation: true
+
+app:
+  name: "pass"

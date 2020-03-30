@@ -1,0 +1,12 @@
+server:
+  port: 8085
+  servlet:
+    context-path: "/${app.name}"
+
+spring:
+  data:
+    mongodb:
+      database: "pass_db"
+  mongodb:
+    embedded:
+      version: "3.5.5"
