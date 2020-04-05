@@ -8,6 +8,7 @@ class CircleciProjectApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("RUN TESTS");
 	}
 
 }

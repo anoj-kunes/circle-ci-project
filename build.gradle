@@ -27,3 +27,5 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+
+test.dependsOn cleanTest
